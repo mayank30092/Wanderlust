@@ -68,7 +68,7 @@ const sessionOptions = {
     },
 };
 app.get('/', (req, res) => {
-    res.send('Wanderlust API is running 🚀');
+    res.render('index');
 });  
 
 //session id & cookie
