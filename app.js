@@ -67,6 +67,16 @@ const sessionOptions = {
         httpOnly: true,
     },
 };
+
+//flash message for success and error
+app.use((req,res,next)=>{
+    res.locals.success = req.flash("success");
+    res.locals.error = req.flash("error");
+    res.locals.currUser = req.user; 
+    res.locals.mapKey = process.env.MAP_TOKEN;
+    next();
+});
+
 app.get('/', (req, res) => {
     res.render('index');
 });  
@@ -83,15 +93,6 @@ passport.use(new LocalStrategy(User.authenticate()));
 
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
-
-//flash message for success and error
-app.use((req,res,next)=>{
-    res.locals.success = req.flash("success");
-    res.locals.error = req.flash("error");
-    res.locals.currUser = req.user; 
-    res.locals.mapKey = process.env.MAP_TOKEN;
-    next();
-});
 
 //listing route imported
 app.use("/listings",listingsRouter);
