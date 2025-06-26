@@ -68,32 +68,51 @@ WanderLust is a full-stack rental booking web application inspired by Airbnb. It
    ```bash
    git clone https://github.com/your-username/wanderlust.git
    cd wanderlust
+   ```
 2.Install dependencies
+   ```bash
   npm install
+   ```
+
 3.Configure Environment Variables
   Create a .env file in the root with the following:
-  DATABASE_URL=your_mongodb_url
-  CLOUDINARY_CLOUD_NAME=your_cloud_name
-  CLOUDINARY_KEY=your_key
-  CLOUDINARY_SECRET=your_secret
-  SESSION_SECRET=your_session_secret
+  
+  • DATABASE_URL=your_mongodb_url
+  
+  • CLOUDINARY_CLOUD_NAME=your_cloud_name
+  
+  • CLOUDINARY_KEY=your_key
+  
+  • CLOUDINARY_SECRET=your_secret
+  
+  • SESSION_SECRET=your_session_secret
+  
 4.Run the app
-  npm start
+   ```bash
+   npm start
+   ```
+  
 5.Visit http://localhost:8080/listings to use the application.
 
 ---
 
 🧠 Learning Outcomes
 
-Built a full-stack web application from scratch
-Applied MVC architecture in Node.js
-Integrated image uploads via Cloudinary
-Deployed using Render and MongoDB Atlas
-Learned RESTful routing and session-based authentication
+• Built a full-stack web application from scratch
+
+• Applied MVC architecture in Node.js
+
+• Integrated image uploads via Cloudinary
+
+• Deployed using Render and MongoDB Atlas
+
+• Learned RESTful routing and session-based authentication
 
 ---
 👨‍💻 Author
 
 Mayank Mittal
+
 🔗 www.linkedin.com/in/mayankmittal30092
+
 📂 https://github.com/mayank30092
