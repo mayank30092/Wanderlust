@@ -27,13 +27,11 @@
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="/listings"><i class="fa-solid fa-location-arrow"></i></a>
+      <h2><i>WanderLust</i></h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="/listings"><b>Explore</b></a>
-        </div>
         <div class="navbar-nav ms-auto">
           <form class="d-flex" role="search">
             <input class="form-control me-2 search-input" type="search" placeholder="Search Destinations" />
@@ -41,7 +39,8 @@
           </form>
         </div>
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="/listings/new"><b>Wanderlust your home</b></a>
+          <a class="nav-link" href="/listings"><b>Explore</b></a>
+          <a class="nav-link" href="/listings/new"><b>WanderLust your home</b></a>
           <% if(!currUser) { %>
           <a class="nav-link"  href="/signup"><b>Sign up</b></a>
           <a class="nav-link" href="/login"><b>Log in</b></a>
