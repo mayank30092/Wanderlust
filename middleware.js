@@ -63,3 +63,10 @@ module.exports.isReviewAuthor = async (req, res, next) => {
     }
     next();
 };
+
+module.exports.storeReturnTo = (req, res, next) => {
+    if (!req.isAuthenticated() && req.method === "GET") {
+        req.session.redirectUrl = req.originalUrl;
+    }
+    next();
+};
