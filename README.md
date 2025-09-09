@@ -1,6 +1,17 @@
-# 🌍 WanderLust – Airbnb Clone
+<h1 align="center">🌍 WanderLust – Airbnb Clone</h1>
 
-WanderLust is a full-stack rental booking web application inspired by Airbnb. It allows users to browse rental listings, view property details, register/login, and review properties. The project demonstrates full CRUD functionality, authentication, and real-world deployment.
+<p align="center">
+  A full-stack rental booking web application inspired by Airbnb.<br>
+  Browse listings, register/login, add reviews, and experience real-world deployment 🚀
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
 
 ---
 
@@ -12,40 +23,22 @@ WanderLust is a full-stack rental booking web application inspired by Airbnb. It
 
 ## 🛠️ Tech Stack
 
-### Frontend:
-- HTML5
-- CSS3
-- Bootstrap
-- JavaScript
-- EJS Templating
-
-### Backend:
-- Node.js
-- Express.js
-
-### Database:
-- MongoDB (via MongoDB Atlas)
-- Mongoose (ODM)
-
-### Tools & Services:
-- Cloudinary (Image Uploads)
-- Render (Backend Deployment)
-- Git & GitHub
-- Express-session & connect-mongo (Session management)
-- Method-Override
+| Frontend           | Backend           | Database        | Tools & Services                     |
+|-------------------|-----------------|----------------|-------------------------------------|
+| HTML5, CSS3, JS, Bootstrap, EJS | Node.js, Express.js | MongoDB Atlas, Mongoose | Cloudinary, Render, Git & GitHub, Express-session & connect-mongo, Method-Override |
 
 ---
 
 ## ✨ Features
 
-- User Authentication (Register/Login/Logout)
-- Add New Properties (with images, location, and description)
-- Edit/Delete Listings (CRUD)
-- View All Listings
-- Flash Messages for Alerts
-- Responsive UI using Bootstrap
-- Clean URL Routing & RESTful Routes
-- Data stored in MongoDB Atlas, deployed via Render
+- 🔐 User Authentication (Register/Login/Logout)  
+- ➕ Add New Properties (images, location, description)  
+- ✏️ Edit/Delete Listings (CRUD)  
+- 📃 View All Listings  
+- ⚡ Flash Messages for Alerts  
+- 📱 Responsive UI with Bootstrap  
+- 🔗 Clean URL Routing & RESTful Routes  
+- 💾 Data stored in MongoDB Atlas, deployed via Render  
 
 ---
 
@@ -76,7 +69,7 @@ WanderLust is a full-stack rental booking web application inspired by Airbnb. It
 
 3.Configure Environment Variables
   Create a .env file in the root with the following:
-  
+  ```
   • DATABASE_URL=your_mongodb_url
   
   • CLOUDINARY_CLOUD_NAME=your_cloud_name
@@ -86,7 +79,8 @@ WanderLust is a full-stack rental booking web application inspired by Airbnb. It
   • CLOUDINARY_SECRET=your_secret
   
   • SESSION_SECRET=your_session_secret
-  
+  ```
+
 4.Run the app
    ```bash
    npm start
@@ -109,10 +103,9 @@ WanderLust is a full-stack rental booking web application inspired by Airbnb. It
 • Learned RESTful routing and session-based authentication
 
 ---
-👨‍💻 Author
+👨‍💻 Author  
+Mayank Mittal  
 
-Mayank Mittal
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mayank%20Mittal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayankmittal30092)
 
-🔗 www.linkedin.com/in/mayankmittal30092
-
-📂 https://github.com/mayank30092
+[![GitHub](https://img.shields.io/badge/GitHub-mayank30092-181717?style=for-the-badge&logo=github)](https://github.com/mayank30092)
